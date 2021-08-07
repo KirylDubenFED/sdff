@@ -1,0 +1,45 @@
+.header {
+  padding-top: 64px;
+  padding-left: 345px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1454px;
+  margin-bottom: 57px;
+
+  .header__logo {
+    margin-left: 130px;
+  }
+  .button--mail:after {
+    content: "\2709";
+    padding-left: 20px;
+  }
+  .button--mail {
+    width: 136px;
+  }
+}
+
+.nav__list {
+  display: flex;
+  width: 583px;
+
+  .nav__link {
+    padding-right: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #263640;
+  }
+  .nav__link--active {
+    padding-right: 20px;
+    padding-left: 15px;
+    margin-right: 10px;
+    color: #ff9900;
+    border-bottom: 2px solid #ff9900;
+  }
+  .down {
+    font-size: 10px;
+  }
+}
